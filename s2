@@ -1,0 +1,47 @@
+#include <iostream> 
+#include <algorithm>
+#include <math.h>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+	int y;
+	int x;
+
+	cout << "Kindly enter your name: ";
+	string name;
+	getline(cin, name);
+
+	cin >> name;
+
+	cout << "Enter any Number: ";
+	
+	int x, fact = 1, x;
+	for (x = 1;x <= x;x++) {
+		fact = fact * x;
+	}
+	cout << "The factorial of " << x << " is: " << fact << "\n" << endl;
+	
+	while (cin.fail())
+	{
+		cout << "Invalid command enter the numbers again: " << endl;
+		cin.clear();
+		cin.ignore(1000, '\n');
+		cin >> x;
+	}
+	for (int x = 0; x <= 10; x++)
+	{
+		cout << "Times table of "<< x << " x " << x << " = " << x * x << endl;
+	}
+
+	int p = 1;
+
+	do {
+		cout << x << " is powered to " << p << " = " << pow(x, p) << endl;
+		p++;
+	} while (p <= 10);
+
+
+}
